@@ -1,7 +1,18 @@
-﻿
+﻿@model IEnumerable<LinkHolder.Models.Link>
+
 @{
     ViewData["Title"] = "Index";
 }
 
 <h2>Index</h2>
+
+<table border="1">
+    @foreach(var link in Model)
+    {
+        <tr>
+            <td>@link.Content</td>
+            <td>@link.Title</td>
+        </tr>
+    }
+</table>
 

@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace LinkHolder.Services
 {
-    public interface ILinkData
+    interface ITagData
     {
-        IEnumerable<Link> GetAll();
-        Link Get(int id);
-        Link Add(Link link);
-
+        IEnumerable<Tag> GetAll();
+        Tag Get(int id);
+        Tag Add(Tag tag);
     }
 }

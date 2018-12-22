@@ -7,10 +7,18 @@ namespace LinkHolder.Models
 {
     public class Link
     {
+
+        //public Link()
+        //{
+        //    this.Tags = new HashSet<Tag>();
+        //}
+
         public int Id { get; set; }
         public string Content { get; set; }
         public String Title { get; set; }
         public int TimesClicked { get; set; }
         public DateTime? LastVisit { get; set; }
+
+        public virtual ICollection<LinkTag> LinkTags { get; set; }
     }
 }
