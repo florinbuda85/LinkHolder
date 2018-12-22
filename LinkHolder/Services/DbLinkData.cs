@@ -1,5 +1,6 @@
 ﻿using LinkHolder.Data;
 using LinkHolder.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,7 +31,10 @@ namespace LinkHolder.Services
 
         public IEnumerable<Link> GetAll()
         {
-            return _context.Links.OrderBy(x => x.LastVisit);
+            return _context
+                   .Links
+                   .Include(o => o.LinkTags).ThenInclude(o=>o.Tag)
+                   .OrderBy(x => x.LastVisit);
         }
     }
 }

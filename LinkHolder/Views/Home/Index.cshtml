@@ -12,6 +12,14 @@
         <tr>
             <td>@link.Content</td>
             <td>@link.Title</td>
+            <td>
+                <ul>
+                    @foreach(var tag in link.LinkTags)
+                    {
+                        <li>@tag.Tag.Name</li>
+                    }
+                </ul>
+            </td>
         </tr>
     }
 </table>
