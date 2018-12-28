@@ -9,7 +9,61 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <None Include="wwwroot\Assets\css\bootstrap.min.css" />
+    <None Include="wwwroot\Assets\css\now-ui-dashboard.css" />
+    <None Include="wwwroot\Assets\css\now-ui-dashboard.css.map" />
+    <None Include="wwwroot\Assets\css\now-ui-dashboard.min.css" />
+    <None Include="wwwroot\Assets\demo\demo.css" />
+    <None Include="wwwroot\Assets\demo\demo.js" />
+    <None Include="wwwroot\Assets\fonts\nucleo-outline.eot" />
+    <None Include="wwwroot\Assets\fonts\nucleo-outline.ttf" />
+    <None Include="wwwroot\Assets\fonts\nucleo-outline.woff" />
+    <None Include="wwwroot\Assets\fonts\nucleo-outline.woff2" />
+    <None Include="wwwroot\Assets\img\apple-icon.png" />
+    <None Include="wwwroot\Assets\img\bg5.jpg" />
+    <None Include="wwwroot\Assets\img\favicon.png" />
+    <None Include="wwwroot\Assets\img\header.jpg" />
+    <None Include="wwwroot\Assets\img\mike.jpg" />
+    <None Include="wwwroot\Assets\img\now-logo.png" />
+    <None Include="wwwroot\Assets\js\core\bootstrap.min.js" />
+    <None Include="wwwroot\Assets\js\core\jquery.min.js" />
+    <None Include="wwwroot\Assets\js\core\popper.min.js" />
+    <None Include="wwwroot\Assets\js\now-ui-dashboard.js" />
+    <None Include="wwwroot\Assets\js\now-ui-dashboard.js.map" />
+    <None Include="wwwroot\Assets\js\now-ui-dashboard.min.js" />
+    <None Include="wwwroot\Assets\js\plugins\bootstrap-notify.js" />
+    <None Include="wwwroot\Assets\js\plugins\chartjs.min.js" />
+    <None Include="wwwroot\Assets\js\plugins\perfect-scrollbar.jquery.min.js" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\cards\_card-chart.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\mixins\_buttons.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\mixins\_cards.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\mixins\_dropdown.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\mixins\_inputs.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\mixins\_page-header.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\mixins\_transparency.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\mixins\_vendor-prefixes.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\plugins\_plugin-animate-bootstrap-notify.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\plugins\_plugin-perfect-scrollbar.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_alerts.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_buttons.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_cards.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_checkboxes-radio.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_dropdown.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_fixed-plugin.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_footers.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_images.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_inputs.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_misc.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_mixins.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_navbar.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_nucleo-outline.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_page-header.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_responsive.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_sidebar-and-main-panel.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_tables.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_typography.scss" />
+    <None Include="wwwroot\Assets\scss\now-ui-dashboard\_variables.scss" />
   </ItemGroup>
 
   <ItemGroup>

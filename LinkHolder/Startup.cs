@@ -37,6 +37,8 @@ namespace LinkHolder
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseStaticFiles();
+
             //app.UseMvcWithDefaultRoute();
             app.UseMvc(ConfigureRoutes);
 
