@@ -1,0 +1,9 @@
+﻿@model LinkHolder.Models.Tag
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Create tag</h1>
+<form method="post">
+    <input asp-for="Name" />    
+    <input type="submit" name="save" value="Save" />
+</form>

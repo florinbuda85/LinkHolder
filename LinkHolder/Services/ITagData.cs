@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LinkHolder.Services
 {
-    interface ITagData
+    public interface ITagData
     {
         IEnumerable<Tag> GetAll();
         Tag Get(int id);
