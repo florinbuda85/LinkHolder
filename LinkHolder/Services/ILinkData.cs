@@ -9,8 +9,9 @@ namespace LinkHolder.Services
     public interface ILinkData
     {
         IEnumerable<Link> GetAll();
+        List<Link> GetAllByTag(List<int> tags);
         Link Get(int id);
         Link Add(Link link);
-
+        Link Update(Link link);
     }
 }

@@ -1,14 +1,14 @@
 ﻿@using LinkHolder.Utils
 
-@model IEnumerable<LinkHolder.Models.Link>
+@model LinkHolder.ViewModels.HomeListTags
 
 @{
-    ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 <div class="card">
     <div class="card-header">
-        <h4 class="card-title">My Links</h4>
+        <h4 class="card-title">@Model.Title</h4>
     </div>
     <div class="card-body">
         <div class="table-responsive">
@@ -27,7 +27,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach (var link in Model)
+                    @foreach (var link in Model.Links)
                     {
                         <tr>
                             <td>
@@ -39,7 +39,7 @@
                             <td>
                                 @foreach (var tag in link.LinkTags)
                                 {
-                                    @Html.ActionLink("["+tag.Tag.Name+"]", "ListTags", "Home", new { id = tag.Tag.Id }, null)
+                                    @Html.ActionLink("[" + tag.Tag.Name + "]", "ListTags", "Home", new { id = tag.Tag.Id }, null)
                                 }
                             </td>
                         </tr>

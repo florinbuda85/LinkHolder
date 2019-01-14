@@ -1,0 +1,15 @@
+﻿@using LinkHolder.Utils
+
+@model LinkHolder.ViewModels.InformationMessage
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="card">  
+    <div class="card-header">
+        <h4 class="card-title">@Model.Title</h4>
+    </div>
+    <div class="card-body">
+        @Model.Content
+    </div>
+</div>

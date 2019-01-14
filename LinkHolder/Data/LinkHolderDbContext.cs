@@ -16,6 +16,7 @@ namespace LinkHolder.Data
 
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Link> Links { get; set; }
+        //public DbSet<LinkTag> LinkTags { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

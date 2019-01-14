@@ -28,6 +28,14 @@ namespace LinkHolder.Services
             return _context.Tags.FirstOrDefault(r => r.Id == id);
         }
 
+
+        public List<Tag> GetTagsByIds(List<int> ids)
+        {
+            return _context.Tags
+                .Where(x => ids.Contains(x.Id))
+                .ToList();
+        }
+
         public IEnumerable<Tag> GetAll()
         {
             return _context.Tags.OrderBy(x => x.Name);

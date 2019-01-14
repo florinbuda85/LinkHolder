@@ -9,6 +9,7 @@ namespace LinkHolder.Services
     public interface ITagData
     {
         IEnumerable<Tag> GetAll();
+        List<Tag> GetTagsByIds(List<int> ids);
         Tag Get(int id);
         Tag Add(Tag tag);
     }
